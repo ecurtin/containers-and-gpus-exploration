@@ -1,3 +1,10 @@
+# Custom stuff for this project
+
+# Cause you don't get to see where I'm working in GCP
+set_gcp_project.sh
+# Also cause image names in GCR contain the project id
+image_name.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

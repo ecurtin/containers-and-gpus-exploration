@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: SHORTNAME
+spec:
+  template:
+    metadata:
+      name: SHORTNAME
+    spec:
+      containers:
+      - name: butt
+        image: LONGNAME
+        resources:
+          limits:
+            nvidia.com/gpu: 1
+      restartPolicy: Never
