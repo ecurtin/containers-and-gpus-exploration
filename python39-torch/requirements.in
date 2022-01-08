@@ -1,6 +1,7 @@
+numpy
 torch==1.10.0
 # also have to install numpy cause of this error
 # /usr/local/lib/python3.9/site-packages/torch/package/_directory_reader.py:17: UserWarning: Failed to initialize NumPy: No module named 'numpy' (Triggered internally at  ../torch/csrc/utils/tensor_numpy.cpp:68.)
 #  _dtype_to_storage = {data_type(0).dtype: data_type for data_type in _storages}
 
-numpy
+
